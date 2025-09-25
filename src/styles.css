@@ -926,6 +926,20 @@ a {
     overflow: hidden;
     transition: max-height 0.25s ease;
   }
+  :root[data-theme='light'] .navlink {
+    color: var(--fg);
+  }
+  :root[data-theme='light'] .navlink:visited {
+    color: var(--fg);
+  }
+  :root[data-theme='light'] .navlink:hover,
+  :root[data-theme='light'] .navlink:focus-visible {
+    color: var(--accent-strong);
+  }
+  :root[data-theme='light'] .navlink.active,
+  :root[data-theme='light'] .navlink.active:visited {
+    color: var(--accent-strong);
+  }
   .navlinks.is-open {
     padding: 12px 0;
     max-height: 400px;
