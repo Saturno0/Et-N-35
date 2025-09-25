@@ -41,7 +41,7 @@
 
 :root[data-theme='light'] {
   color-scheme: light;
-  --bg: #f5f7fb;
+  --bg: #c4c4c4;
   --bg-soft: #eef1f7;
   --fg: #1d2430;
   --muted: #556171;
