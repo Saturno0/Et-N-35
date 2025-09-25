@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
+import escudo from '../assets/Escudo.png'
 
 export default function Navbar({ theme = 'dark', onToggleTheme = () => {} }){
   const [isOpen, setIsOpen] = React.useState(false)
@@ -13,7 +14,7 @@ export default function Navbar({ theme = 'dark', onToggleTheme = () => {} }){
     <header className="navbar">
       <div className="container inner">
         <Link to="/" className="brand">
-          <img src="../public/Escudo.png" alt="ET35" />
+          <img src={escudo} alt="ET35" />
           <span>Escuela Técnica 35</span>
         </Link>
         <div className="nav-actions">

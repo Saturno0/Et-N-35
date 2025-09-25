@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import escudo from '../assets/Escudo.png'
 
 const contactItems = [
   {
@@ -59,7 +60,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img src="/Escudo.png" alt="Escudo ET35" />
+          <img src={escudo} alt="Escudo ET35" />
           <div>
             <p>Escuela Técnica N° 35 “Ing. Eduardo Latzina”</p>
             <span>Automotores · Computación</span>
@@ -68,7 +69,7 @@ export default function Footer() {
         <div className="footer-contact">
           <h3>Contacto</h3>
           <ul>
-            {contactItems.map((item) => (
+            {contactItems.map(item => (
               <li key={item.label}>
                 {item.icon}
                 <a href={item.href}>{item.label}</a>
