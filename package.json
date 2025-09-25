@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://saturno0.github.io/Et-N-35",
+  "homepage": "https://saturno0.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
