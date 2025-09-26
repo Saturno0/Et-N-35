@@ -14,4 +14,9 @@ Página de la Escuela Técnica N° 35 "Ing. Eduardo Latzina", construida con Rea
 - `npm run build` para generar la versión de producción
 - `npm run lint` para ejecutar las reglas de linting
 
+
+## Para entrar a la pagina
+- Darle a Inicio en el Navbar
+
+- 
 Para más detalles sobre React + Vite consultá la [documentación oficial](https://vitejs.dev/guide/).
