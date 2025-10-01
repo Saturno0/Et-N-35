@@ -32,11 +32,11 @@ export default function App(){
     <div>
       <Navbar theme={theme} onToggleTheme={toggleTheme} />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/recorrida" element={<Recorrida />} />
-        <Route path="/recorrida-historia" element={<Historia />} />
-        <Route path="/campamento-suyai" element={<Campamento />} />
-        <Route path="/comunidad-educativa" element={<ComunidadEducativa />} />
+        <Route path="/Et-N-35/" element={<Home />} />
+        <Route path="/Et-N-35/recorrida" element={<Recorrida />} />
+        <Route path="/Et-N-35/recorrida-historia" element={<Historia />} />
+        <Route path="/Et-N-35/campamento-suyai" element={<Campamento />} />
+        <Route path="/Et-N-35/comunidad-educativa" element={<ComunidadEducativa />} />
         <Route path="*" element={<main className="section"><div className="container"><h2>404</h2><p className="muted">Página no encontrada</p></div></main>} />
       </Routes>
       <Footer />
