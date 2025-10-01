@@ -39,11 +39,11 @@ export default function Navbar({ theme = 'dark', onToggleTheme = () => {} }){
           </button>
         </div>
         <nav id="primary-navigation" className={`navlinks${isOpen ? ' is-open' : ''}`}>
-          <NavLink to="/" className="navlink">Inicio</NavLink>
-          <NavLink to="/recorrida-historia" className="navlink">Historia del colegio</NavLink>
-          <NavLink to="/comunidad-educativa" className="navlink">Comunidad educativa</NavLink>
-          <NavLink to="/recorrida" className="navlink">Recorrida</NavLink>
-          <NavLink to="/campamento-suyai" className="navlink">Campamento Suyai</NavLink>
+          <NavLink to="/Et-N-35/" className="navlink">Inicio</NavLink>
+          <NavLink to="/Et-N-35/recorrida-historia" className="navlink">Historia del colegio</NavLink>
+          <NavLink to="/Et-N-35/comunidad-educativa" className="navlink">Comunidad educativa</NavLink>
+          <NavLink to="/Et-N-35/recorrida" className="navlink">Recorrida</NavLink>
+          <NavLink to="/Et-N-35/campamento-suyai" className="navlink">Campamento Suyai</NavLink>
         </nav>
       </div>
     </header>
